@@ -1,0 +1,37 @@
+<ion-view view-title="Account">
+  <ion-content>
+    <ion-list>
+   	<div class="row">
+   		<div class="col col-100" style="height:100px;"></div>
+   	</div>
+   	<div class="row">
+   		<div class="col col-10">{{name}}</div>
+   		<div class="col col-80"></div>
+   		<div class="col col-10">{{date}}</div>
+   	</div>
+   	<div class="row">
+   		<div class="col col-20"> 
+   			姓名:
+   		</div>
+   		<div class="col col-80">
+   			<input type="text" ng-model="a.name" style="border:1px solid black"  >
+   		</div>
+   	</div>
+   	<div class="row">
+   		<div class="col col-20">
+   			生日:
+   		</div>
+   		<div class="col col-80">
+   			<input type="text" ng-model="a.date" style="border:1px solid black" >
+   		</div>
+   	</div>
+   	<div class="row">
+   		<div class="col col-20"></div>
+   		<div class="col col-20">
+   			<button ng-click="psotBirthday()">保存</button>
+   		</div>
+   		<div class="col col-60"></div>
+   	</div>
+    </ion-list>
+  </ion-content>
+</ion-view>
